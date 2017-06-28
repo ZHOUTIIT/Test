@@ -1,0 +1,10 @@
+body{
+  margin: 0 auto;
+  width: 800px;
+}
+.info{
+  text-align: right;
+}
+p{
+  line-height: 10px;
+}

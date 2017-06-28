@@ -1,0 +1,32 @@
+.content{
+  display: block;
+  border: solid;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+}
+h1{
+  text-align: center;
+}
+hr{
+  width: 800px;
+}
+/*input{
+  border-style: none;
+  width: 600px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 40px;
+}
+button{
+  border: solid black;
+  border-width: thick;
+  line-height: 40px;
+  height: 53px;
+  width:120px;
+  font-size: 40px;
+
+}*/
+p{
+  font-size: 40px;
+}

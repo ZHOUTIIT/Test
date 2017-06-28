@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/action.js"></script>
+  <title>CodeRunner</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Source code generated using layoutit.com">
+  <meta name="author" content="LayoutIt!">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>
+          Drop your codes here
+        </h3>
+        <select id="codetype">
+          <option value="go">Go</option>
+          <option value="cpp">C++</option>
+          <option value="c">C</option>
+          <option value="swift">Swift</option>
+        </select>
+        <br>
+        <br>
+
+        <textarea name="codes" id="codes" rows="30" cols="80"></textarea>
+        <br>
+        <br>
+        <button type="button" class="btn btn-lg" id="run">
+          Run
+        </button>
+        <br>
+        <br>
+        <textarea name="result" rows="10" cols="80" id="result"></textarea>
+      </div>
+    </div>
+  </div>
+
+</body>
