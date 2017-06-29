@@ -1,46 +1,88 @@
-html{
+html {
   font-size: 20px;
   font-family: 'Anton', sans-serif;
 }
-h1{
+
+h1 {
   text-align: center;
   color: blue;
   text-shadow: 3px 3px 4px black;
   font-size: 45px;
 }
-h2{
+
+h2 {
   text-align: left;
   font-size: 30px;
 }
-p,li{
+
+p, li {
   line-height: 2;
   letter-spacing: 1px;
 }
-img{
+
+img {
   display: block;
   margin: 0 auto;
   width: 400px;
   height: 300px;
 }
-body{
+
+.tryimg {
+  margin: 50px auto;
+  padding: 50px 50px 50px 50px;
+  background-color: grey;
+}
+
+.trylink {
+  margin: 50px auto;
+  padding: 50px 50px 50px 50px;
+  background-color: grey;
+}
+
+.typeinyourname {
+  margin: 50px auto;
+  padding: 50px 50px 50px 50px;
+  background-color: grey;
+}
+
+object {
+  align-items: center;
+}
+
+.video {
+  margin: 50px auto;
+  padding: 50px 50px 50px 50px;
+  background-color: grey;
+}
+
+.pdfreader {
+  margin: 50px auto;
+  padding: 50px 50px 50px 50px;
+  background-color: grey;
+}
+
+
+/*body{
   width: 600px;
   height: 1500px;
   margin: 200px auto;
   padding: 0 50px 50px 50px;
   border: 5px solid black;
-}
-button{
+}*/
+
+button {
   margin: 0 auto;
   width: 200px;
   height: 100px;
   font-size: 30px;
   font-family: 'Anton', sans-serif;
-
 }
-input{
+
+input {
   font-size: 20px;
 }
-.submit_button{
+
+.submit_button {
   margin: 0 50px;
   width: 100px;
   height: 50px;

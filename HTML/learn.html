@@ -6,32 +6,47 @@
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <title>My First HTML</title>
+  <script src="scripts/main.js"></script>
   <h1>Learn HTML</h1>
 </head>
 
 <body>
-  <h2>Try img</h2>
-  <p>This is Shanghai underground map</p>
-  <img src="http://www.petwave.com/~/media/Images/Center/Breed/Dogs/Toy-Group/Pug/Pug-face-closeup.ashx" alt="map">
-  <h2>Try a list</h2>
-  <p>In Shanghai:</p>
-  <ul>
-    <li>Food taste good</li>
-    <li>People are kind</li>
-    <li>City is beautiful</li>
-    <li>Transport is convenient</li>
-  </ul>
-  <h2>Try Link</h2>
-  <p>Link to learn 1</p>
-  <a href="learn1.html" title="learn1">Search Link</a>
-  <p>
-    <button id="cu" type="button" name="Change User">Change User</button>
-    <button id="lo" type="button" name="Log Out">Log Out</button>
-  </p>
-  <p>Type in your Name</p>
-  <p><input id="name" type="text"><button class="submit_button" id="sm" type="button" name="submit">Submit</button></p>
-  <p id="welcome"></p>
-  <script src="scripts/main.js"></script>
+  <div class="tryimg">
+    <h2>Try img</h2>
+    <p>This is Shanghai underground map</p>
+    <img src="http://www.petwave.com/~/media/Images/Center/Breed/Dogs/Toy-Group/Pug/Pug-face-closeup.ashx" alt="map">
+    <h2>Try a list</h2>
+    <p>In Shanghai:</p>
+    <ul>
+      <li>Food taste good</li>
+      <li>People are kind</li>
+      <li>City is beautiful</li>
+      <li>Transport is convenient</li>
+    </ul>
+  </div>
+  <div class="trylink">
+    <h2>Try Link</h2>
+    <p>Link to learn 1</p>
+    <a href="learn1.html" title="learn1">Search Link</a>
+    <p>
+      <button id="cu" type="button" name="Change User">Change User</button>
+      <button id="lo" type="button" name="Log Out">Log Out</button>
+    </p>
+  </div>
+  <div class="typeinyourname">
+    <p>Type in your Name</p>
+    <p><input id="name" type="text"><button class="submit_button" id="sm" type="button" name="submit">Submit</button></p>
+    <p id="welcome"></p>
+  </div>
+  <div class="video">
+    <video src="assets/mov_bbb.mp4" controls loop autoplay>
+    </video>
+  </div>
+  <div class="pdfreader">
+    <object data="assets/Object Oriented Software Construction-Meyer.pdf" width="800px" height="500px">
+    </object>
+    <object data="https://www.youtube.com/embed/XGSy3_Czz8k?" width="800px" height="500px"></object>
+  </div>
 </body>
 
 </html>
